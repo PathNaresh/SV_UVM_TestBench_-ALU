@@ -1,0 +1,104 @@
+
+UVM_INFO test.sv(12) @ 0: uvm_test_top [TEST_CLASS] Inside Constructor
+UVM_INFO @ 0: reporter [RNTST] Running test my_test...
+UVM_INFO test.sv(17) @ 0: uvm_test_top [TEST_CLASS] Inside Build_Phase
+UVM_INFO env.sv(10) @ 0: uvm_test_top.env [ENV_CLASS] Inside Constructor
+UVM_INFO env.sv(15) @ 0: uvm_test_top.env [ENV_CLASS] Inside Build_Phase
+UVM_INFO agent.sv(11) @ 0: uvm_test_top.env.agent [AGENT_CLASS] Inside Constructor
+UVM_INFO scoreboard.sv(11) @ 0: uvm_test_top.env.scb [SCB_CLASS] Inside Constructor
+UVM_INFO agent.sv(16) @ 0: uvm_test_top.env.agent [AGENT_CLASS] Inside Build_Phase
+UVM_INFO driver.sv(11) @ 0: uvm_test_top.env.agent.drv [DRIVER_CLASS] Inside Constructor
+UVM_INFO monitor.sv(13) @ 0: uvm_test_top.env.agent.mon [MONITOR_CLASS] Inside Constructor
+UVM_INFO sequencer.sv(7) @ 0: uvm_test_top.env.agent.seqr [SEQUENCER_CLASS] Inside Constructor
+UVM_INFO driver.sv(16) @ 0: uvm_test_top.env.agent.drv [DRIVER_CLASS] Inside Build_Phase
+UVM_INFO monitor.sv(18) @ 0: uvm_test_top.env.agent.mon [MONITOR_CLASS] Inside Build_Phase
+UVM_INFO sequencer.sv(12) @ 0: uvm_test_top.env.agent.seqr [SEQUENCER_CLASS] Inside Build_Phase
+UVM_INFO scoreboard.sv(16) @ 0: uvm_test_top.env.scb [SCB_CLASS] Inside Build_Phase
+UVM_INFO driver.sv(26) @ 0: uvm_test_top.env.agent.drv [DRIVER_CLASS] Inside Connect_Phase
+UVM_INFO monitor.sv(30) @ 0: uvm_test_top.env.agent.mon [MONITOR_CLASS] Inside Connect_Phase
+UVM_INFO sequencer.sv(17) @ 0: uvm_test_top.env.agent.seqr [SEQUENECR_CLASS] Inside Connect_Phase
+UVM_INFO agent.sv(26) @ 0: uvm_test_top.env.agent [AGENT_CLASS] Inside Connect_Phase
+UVM_INFO scoreboard.sv(24) @ 0: uvm_test_top.env.scb [SCB_CLASS] Inside Connect_Phase
+UVM_INFO env.sv(24) @ 0: uvm_test_top.env [ENV_CLASS] Inside Connect_Phase
+UVM_INFO test.sv(25) @ 0: uvm_test_top [TEST_CLASS] Inside Connect_Phase
+UVM_INFO driver.sv(31) @ 0: uvm_test_top.env.agent.drv [DRIVER_CLASS] Inside Run_Phase
+UVM_INFO monitor.sv(35) @ 0: uvm_test_top.env.agent.mon [MONITOR_CLASS] Inside Run_Phase
+UVM_INFO agent.sv(34) @ 0: uvm_test_top.env.agent [AGENT_CLASS] Inside Run_Phase
+UVM_INFO scoreboard.sv(37) @ 0: uvm_test_top.env.scb [SCB_CLASS] Inside Run_Phase
+UVM_INFO env.sv(32) @ 0: uvm_test_top.env [ENV_CLASS] Inside Run_Phase
+UVM_INFO test.sv(30) @ 0: uvm_test_top [TEST_CLASS] Inside Run_Phase
+UVM_INFO sequence.sv(9) @ 0: reporter@@reset_seq [BASE_SEQUENCE] Inside Constructor
+UVM_INFO sequence.sv(13) @ 0: uvm_test_top.env.agent.seqr@@reset_seq [BASE_SEQUENCE] Inside Body method
+UVM_INFO sequence.sv(9) @ 12: reporter@@test_seq [BASE_SEQUENCE] Inside Constructor
+UVM_INFO sequence.sv(33) @ 12: reporter@@test_seq [BASE_SEQUENCE] Inside Constructor
+UVM_INFO sequence.sv(37) @ 12: uvm_test_top.env.agent.seqr@@test_seq [TEST_SEQUENCE] Inside Body method
+UVM_INFO scoreboard.sv(73) @ 22: uvm_test_top.env.scb [COMPARE] Transaction PASSED! [22] :: a = 4 b = 3 sel = 1 ACTUAL = 1 & EXPECTED = 1
+UVM_INFO sequence.sv(9) @ 24: reporter@@test_seq [BASE_SEQUENCE] Inside Constructor
+UVM_INFO sequence.sv(33) @ 24: reporter@@test_seq [BASE_SEQUENCE] Inside Constructor
+UVM_INFO sequence.sv(37) @ 24: uvm_test_top.env.agent.seqr@@test_seq [TEST_SEQUENCE] Inside Body method
+UVM_INFO scoreboard.sv(73) @ 30: uvm_test_top.env.scb [COMPARE] Transaction PASSED! [30] :: a = 4 b = 3 sel = 1 ACTUAL = 1 & EXPECTED = 1
+UVM_INFO sequence.sv(9) @ 36: reporter@@test_seq [BASE_SEQUENCE] Inside Constructor
+UVM_INFO sequence.sv(33) @ 36: reporter@@test_seq [BASE_SEQUENCE] Inside Constructor
+UVM_INFO sequence.sv(37) @ 36: uvm_test_top.env.agent.seqr@@test_seq [TEST_SEQUENCE] Inside Body method
+UVM_INFO scoreboard.sv(73) @ 38: uvm_test_top.env.scb [COMPARE] Transaction PASSED! [38] :: a = 6 b = 1 sel = 0 ACTUAL = 7 & EXPECTED = 7
+UVM_INFO scoreboard.sv(73) @ 46: uvm_test_top.env.scb [COMPARE] Transaction PASSED! [46] :: a = 5 b = 3 sel = 0 ACTUAL = 8 & EXPECTED = 8
+UVM_INFO sequence.sv(9) @ 48: reporter@@test_seq [BASE_SEQUENCE] Inside Constructor
+UVM_INFO sequence.sv(33) @ 48: reporter@@test_seq [BASE_SEQUENCE] Inside Constructor
+UVM_INFO sequence.sv(37) @ 48: uvm_test_top.env.agent.seqr@@test_seq [TEST_SEQUENCE] Inside Body method
+UVM_INFO scoreboard.sv(73) @ 54: uvm_test_top.env.scb [COMPARE] Transaction PASSED! [54] :: a = 5 b = 3 sel = 0 ACTUAL = 8 & EXPECTED = 8
+UVM_INFO sequence.sv(9) @ 60: reporter@@test_seq [BASE_SEQUENCE] Inside Constructor
+UVM_INFO sequence.sv(33) @ 60: reporter@@test_seq [BASE_SEQUENCE] Inside Constructor
+UVM_INFO sequence.sv(37) @ 60: uvm_test_top.env.agent.seqr@@test_seq [TEST_SEQUENCE] Inside Body method
+UVM_INFO scoreboard.sv(73) @ 62: uvm_test_top.env.scb [COMPARE] Transaction PASSED! [62] :: a = 7 b = 3 sel = 1 ACTUAL = 4 & EXPECTED = 4
+UVM_INFO scoreboard.sv(73) @ 70: uvm_test_top.env.scb [COMPARE] Transaction PASSED! [70] :: a = 7 b = 3 sel = 0 ACTUAL = 10 & EXPECTED = 10
+UVM_INFO sequence.sv(9) @ 72: reporter@@test_seq [BASE_SEQUENCE] Inside Constructor
+UVM_INFO sequence.sv(33) @ 72: reporter@@test_seq [BASE_SEQUENCE] Inside Constructor
+UVM_INFO sequence.sv(37) @ 72: uvm_test_top.env.agent.seqr@@test_seq [TEST_SEQUENCE] Inside Body method
+UVM_INFO scoreboard.sv(73) @ 78: uvm_test_top.env.scb [COMPARE] Transaction PASSED! [78] :: a = 7 b = 3 sel = 0 ACTUAL = 10 & EXPECTED = 10
+UVM_INFO sequence.sv(9) @ 84: reporter@@test_seq [BASE_SEQUENCE] Inside Constructor
+UVM_INFO sequence.sv(33) @ 84: reporter@@test_seq [BASE_SEQUENCE] Inside Constructor
+UVM_INFO sequence.sv(37) @ 84: uvm_test_top.env.agent.seqr@@test_seq [TEST_SEQUENCE] Inside Body method
+UVM_INFO scoreboard.sv(73) @ 86: uvm_test_top.env.scb [COMPARE] Transaction PASSED! [86] :: a = 5 b = 3 sel = 0 ACTUAL = 8 & EXPECTED = 8
+UVM_INFO scoreboard.sv(73) @ 94: uvm_test_top.env.scb [COMPARE] Transaction PASSED! [94] :: a = 5 b = 1 sel = 1 ACTUAL = 4 & EXPECTED = 4
+UVM_INFO sequence.sv(9) @ 96: reporter@@test_seq [BASE_SEQUENCE] Inside Constructor
+UVM_INFO sequence.sv(33) @ 96: reporter@@test_seq [BASE_SEQUENCE] Inside Constructor
+UVM_INFO sequence.sv(37) @ 96: uvm_test_top.env.agent.seqr@@test_seq [TEST_SEQUENCE] Inside Body method
+UVM_INFO scoreboard.sv(73) @ 102: uvm_test_top.env.scb [COMPARE] Transaction PASSED! [102] :: a = 5 b = 1 sel = 1 ACTUAL = 4 & EXPECTED = 4
+UVM_INFO sequence.sv(9) @ 108: reporter@@test_seq [BASE_SEQUENCE] Inside Constructor
+UVM_INFO sequence.sv(33) @ 108: reporter@@test_seq [BASE_SEQUENCE] Inside Constructor
+UVM_INFO sequence.sv(37) @ 108: uvm_test_top.env.agent.seqr@@test_seq [TEST_SEQUENCE] Inside Body method
+UVM_INFO scoreboard.sv(73) @ 110: uvm_test_top.env.scb [COMPARE] Transaction PASSED! [110] :: a = 5 b = 3 sel = 0 ACTUAL = 8 & EXPECTED = 8
+UVM_INFO scoreboard.sv(73) @ 118: uvm_test_top.env.scb [COMPARE] Transaction PASSED! [118] :: a = 7 b = 1 sel = 0 ACTUAL = 8 & EXPECTED = 8
+UVM_INFO sequence.sv(9) @ 120: reporter@@test_seq [BASE_SEQUENCE] Inside Constructor
+UVM_INFO sequence.sv(33) @ 120: reporter@@test_seq [BASE_SEQUENCE] Inside Constructor
+UVM_INFO sequence.sv(37) @ 120: uvm_test_top.env.agent.seqr@@test_seq [TEST_SEQUENCE] Inside Body method
+UVM_INFO scoreboard.sv(73) @ 126: uvm_test_top.env.scb [COMPARE] Transaction PASSED! [126] :: a = 7 b = 1 sel = 0 ACTUAL = 8 & EXPECTED = 8
+UVM_INFO /apps/vcsmx/vcs/S-2021.09//etc/uvm-1.2/src/base/uvm_objection.svh(1276) @ 132: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+UVM_INFO /apps/vcsmx/vcs/S-2021.09//etc/uvm-1.2/src/base/uvm_report_server.svh(904) @ 132: reporter [UVM/REPORT/SERVER] 
+--- UVM Report Summary ---
+
+** Report counts by severity
+UVM_INFO :   76
+UVM_WARNING :    0
+UVM_ERROR :    0
+UVM_FATAL :    0
+** Report counts by id
+[AGENT_CLASS]     4
+[BASE_SEQUENCE]    22
+[COMPARE]    14
+[DRIVER_CLASS]     4
+[ENV_CLASS]     4
+[MONITOR_CLASS]     4
+[RNTST]     1
+[SCB_CLASS]     4
+[SEQUENCER_CLASS]     2
+[SEQUENECR_CLASS]     1
+[TEST_CLASS]     4
+[TEST_DONE]     1
+[TEST_SEQUENCE]    10
+[UVM/RELNOTES]     1
+
+$finish called from file "/apps/vcsmx/vcs/S-2021.09//etc/uvm-1.2/src/base/uvm_root.svh", line 527.
+$finish at simulation time                  132
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 132 ns
