@@ -20,6 +20,7 @@ module my_dut(
         default: result = 0; 
       endcase
     end  
+    
   end
 
 endmodule
